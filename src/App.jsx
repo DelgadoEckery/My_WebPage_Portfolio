@@ -177,7 +177,7 @@ function App() {
     <main>
       <header className="site-header">
         <a className="wordmark" href="#top" aria-label="Delgado home">
-          ev<span>.</span>
+          EVD<span>.</span>
         </a>
         <button
           className="menu-toggle"
@@ -223,8 +223,9 @@ function App() {
         <h1>
           Delgado
           <br />
-          <span className="serif-word">.</span>
+          <span className="serif-word">Portfolio</span>
         </h1>
+
         <div className="hero-bottom">
           <p>
             Computer Science student exploring software development through
@@ -237,11 +238,15 @@ function App() {
             </span>
           </a>
         </div>
-        <div className="hero-art" aria-hidden="true">
+        <div className="hero-art">
           <div className="art-orbit orbit-one" />
           <div className="art-orbit orbit-two" />
           <div className="art-core">
-            <span>*</span>
+            <img
+              className="profile-photo"
+              src="/profile-picture.jpe"
+              alt="Profile portrait"
+            />
           </div>
           <span className="art-label label-one">LEARN BY BUILDING</span>
           <span className="art-label label-two">CURIOUS BY NATURE</span>
