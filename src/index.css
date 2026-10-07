@@ -1,1 +1,53 @@
-:root{font-family:'DM Sans',sans-serif;color:#25251f;background:#f3effb;font-synthesis:none;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-optical-sizing:auto;font-weight:400;--paper:#f3effb;--ink:#25251f;--muted:#77776d;--line:#d9d9d0;--orange:#ff704b;--mono:'DM Mono',monospace;--serif:'Playfair Display',Georgia,serif}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:88px}body{margin:0;min-width:320px}body,button,a{font-family:'DM Sans',sans-serif}a{color:inherit}button{color:inherit}::selection{background:#f7a48d;color:#25251f}button:focus-visible,a:focus-visible{outline:2px solid #ff704b;outline-offset:5px}#root{width:100%;overflow:hidden}
+:root {
+  font-family: "DM Sans", sans-serif;
+  color: #25251f;
+  background: #f3effb;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  --paper: #f3effb;
+  --ink: #25251f;
+  --muted: #77776d;
+  --line: #d9d9d0;
+  --orange: #ff704b;
+  --mono: "DM Mono", monospace;
+  --serif: "Playfair Display", Georgia, serif;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 88px;
+}
+body {
+  margin: 0;
+  min-width: 320px;
+}
+body,
+button,
+a {
+  font-family: "DM Sans", sans-serif;
+}
+a {
+  color: inherit;
+}
+button {
+  color: inherit;
+}
+::selection {
+  background: #f7a48d;
+  color: #25251f;
+}
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid #ff704b;
+  outline-offset: 5px;
+}
+#root {
+  width: 100%;
+  overflow: hidden;
+}
